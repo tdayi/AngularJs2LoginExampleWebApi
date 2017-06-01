@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F8D90C7C-28C1-4C13-A366-906F571B0D2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F7DCCCA9-0DF6-4DF4-A812-974D764DFDBB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AngularJs2WebApi", "src\AngularJs2WebApi\AngularJs2WebApi.xproj", "{23757FAF-A7BC-4BCD-8ED0-85E4836E0620}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23757FAF-A7BC-4BCD-8ED0-85E4836E0620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23757FAF-A7BC-4BCD-8ED0-85E4836E0620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23757FAF-A7BC-4BCD-8ED0-85E4836E0620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23757FAF-A7BC-4BCD-8ED0-85E4836E0620}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23757FAF-A7BC-4BCD-8ED0-85E4836E0620} = {F8D90C7C-28C1-4C13-A366-906F571B0D2F}
+	EndGlobalSection
+EndGlobal
